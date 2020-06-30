@@ -1,0 +1,36 @@
+{
+  "name": "q-empty",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app",
+  "productName": "Quasar App",
+  "cordovaId": "org.cordova.quasar.app",
+  "capacitorId": "",
+  "author": "Troy Moreland <49797484+34fame@users.noreply.github.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.18.1",
+    "lodash": "^4.17.15",
+    "luxon": "^1.21.3",
+    "moment": "^2.27.0",
+    "quasar": "^1.0.0",
+    "rrule": "^2.6.4"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0",
+    "@quasar/quasar-app-extension-dotenv": "^1.0.1",
+    "@quasar/quasar-app-extension-qactivity": "^1.0.0-beta.5",
+    "@quasar/quasar-app-extension-qcalendar": "^2.1.2"
+  },
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
